@@ -1,0 +1,13 @@
+server:
+  port: 9090
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/querydsl?createDatabaseIfNotExist=true
+    username: root
+    password: 1128
+
